@@ -114,14 +114,17 @@ nav
 text-align: center;
 padding-top:30px;
 padding-bottom:30px;
+ min-width: 100px;
+background-color: black;
+
 }
 nav ul
 {       
     list-style: none;
     padding-left: 0;
-    width: 100px;
+   
     text-align: left;
-
+    display: none;
 }
 
 nav li
@@ -135,8 +138,8 @@ nav a
 }
 header
 {
-    background-color: black;
-
+  
+    
 }
 .container
 {
@@ -164,12 +167,12 @@ footer
 
 .show-menu header
 {
-    
+    background-color: black;
 }
 
 .show-menu nav ul
 {
-    
+    display: block;
 }
 /* ==========================================================================
    Helper classes

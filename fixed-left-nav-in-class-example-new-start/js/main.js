@@ -1,4 +1,4 @@
 $(".toggle").click(function()
 {
-	$("body").toggleClass(".show-menu")
+	$("body").toggleClass("show-menu")
 })
