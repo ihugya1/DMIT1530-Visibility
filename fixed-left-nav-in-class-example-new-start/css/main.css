@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+﻿/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 
 
 /*
@@ -135,7 +135,10 @@ header
 }
 footer
 {
-  
+  position: absolute;
+  bottom:0;
+  text-align: center;
+  line-height:100px;
 }
 .toggle::before {
     content: "☰";
