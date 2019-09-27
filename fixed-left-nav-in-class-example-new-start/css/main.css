@@ -107,7 +107,7 @@ textarea {
 body 
 {
    display:flex;
-   max-height: 100vh;
+   height: 100vh;
 }
 nav
 {
